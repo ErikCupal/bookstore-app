@@ -6,7 +6,7 @@ In this doc, I would like to give you instructions to run this app and I would a
 
 0. Disclaimer: these instructions are written for macOs and linux systems.
 0. Make sure you have [Node.js](https://nodejs.org/en/) installed (version 12 or above).
-0. Run `git clone git@github.com:ErikCupal/bookstore-app.git && bookstore-app`.
+0. Run `git clone git@github.com:ErikCupal/bookstore-app.git && cd bookstore-app`.
 0. Run `cd server && npm i && node .` in first console window.
 0. Run `npm i && npm start` in second console window.
 0. Open the app in [http://localhost:3000](http://localhost:3000)
