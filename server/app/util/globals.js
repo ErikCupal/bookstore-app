@@ -72,7 +72,8 @@ if ([
 if (globals.isHeroku) {
   globals.port = process.env.PORT;
 } else {
-  globals.port = config.webserver.port;
+  globals.port = process.env.PORT;
+  // globals.port = config.webserver.port;
 }
 
 /** @type {Object} Global variables available to views */
