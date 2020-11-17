@@ -5,3 +5,4 @@ wiki
 temp
 workspace.xml
 .idea
+/build
