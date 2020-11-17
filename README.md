@@ -2,6 +2,8 @@
 
 In this doc, I would like to give you instructions to run this app and I would also like to explain my decisions I made during its development.
 
+## [Live demo](https://erik-cupal-bookstore-app.herokuapp.com/)
+
 ## How to run
 
 0. Disclaimer: these instructions are written for macOs and linux systems.
