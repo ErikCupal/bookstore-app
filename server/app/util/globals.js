@@ -72,7 +72,7 @@ if ([
 if (globals.isHeroku) {
   globals.port = process.env.PORT;
 } else {
-  globals.port = process.env.PORT;
+  globals.port = process.env.PORT || config.webserver.port;
   // globals.port = config.webserver.port;
 }
 
