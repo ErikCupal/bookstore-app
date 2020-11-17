@@ -52,6 +52,11 @@ I strictly avoid creating new data or function references in React components, s
 
 I also wrap components with `memo` to enable shallow prop checking and avoid redundant rerenders/reconciliation. I usually wrap all components with `memo` for consistency, even though the component is not called very often.
 
+There is one potential performance problem in the app that I am aware of. If there were more than about 1000 books in the list, the app would be slow to render. There are two common solutions to this problem:
+
+0. Using pagination - if the list was paginated (even local pagination would sufficient), the number of items on one page would be limited, therefore there would not be a performance problem.
+0. Using list virtualization (windowing) - by rendering only currently visible part of the list, the browser would not have to render all items at once, which would eliminate performance problems. 
+
 ### Design
 
 Although the design is not important for this task, I prefer having a prepared prototype so that I do not have to think about design too much during coding. That's why I created a [design prototype](https://xd.adobe.com/view/1fe7e963-2acb-456d-8f56-36cd992ce727-4ab4/screen/99fbeb10-7dc3-42be-9dc7-f20f8fec2c6c/) beforehand.
