@@ -2,7 +2,7 @@
 
 In this doc, I would like to give you instructions to run this app and I would also like to explain my decisions I made during its development.
 
-## [Live demo](https://erik-cupal-bookstore-app.herokuapp.com/)
+## [Live demo](https://erik-cupal-bookstore-app.herokuapp.com/) (be patient, can take up to 30s from cold start on Heroku)
 
 ## How to run
 
